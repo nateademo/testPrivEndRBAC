@@ -21,6 +21,6 @@ terraform {
     resource_group_name  = "tf-state-rg"
     storage_account_name = "terraformsarnold"
     container_name       = "sandbox"
-    key                  = "resourcegroup0.tfstate"
+    key                  = "lsw0.tfstate"
   }
 }

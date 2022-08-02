@@ -17,3 +17,10 @@ variable "account_tier" {
 variable "account_replication_type" {
   default = "LRS"
 }
+variable "min_tls_version" {
+  default = "TLS1_2"
+}
+
+variable "diagnostic_setting_log_analytics_workspace_id" {
+  description = "The log analytics resource id"
+}
